@@ -4,7 +4,7 @@ var showInnerText = fistItem.innerText;
 
 //Properties from text items will display at the end of the list
 var msg = '<p>textContent: ' + showTextContent + '</p>';
-    msg += '<p>innerText: ' + showInnerText + ' </p>';
+msg += '<p>innerText: ' + showInnerText + ' </p>';
 var el = document.getElementById('scriptResults');
 el.innerHTML = msg;
 
